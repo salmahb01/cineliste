@@ -1,5 +1,5 @@
 import style from "./carte.module.css";
-import BoutonFavori from "../Btnfavori/Btnfavori";
+import BoutonFavori from "../btnfavori/btnfavori";
 import { Link } from "react-router-dom";
 import { useFavoris } from "../../context/FavorisContext";
 
