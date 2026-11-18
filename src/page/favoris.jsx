@@ -1,4 +1,4 @@
-import { useFavoris } from "../context/FavorisContext";
+import { useFavoris } from "../context/favorisContext";
 import Carte from "../components/carte/carte";
 
 export default function Favoris() {
