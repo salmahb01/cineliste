@@ -1,0 +1,58 @@
+.details {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    align-items: flex-start;
+}
+
+.image {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.infos {
+    max-width: 600px;
+}
+
+.infos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.infos p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.bouton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.infos button {
+    padding: 10px 18px;
+    margin: 10px 8px 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.infos button:hover {
+    opacity: 0.8;
+}
+.carte {
+    animation: apparition 0.6s ease;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
