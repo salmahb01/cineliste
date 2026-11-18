@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useFavoris } from "../context/favorisContext";
+import { useFavoris } from "../../context/FavorisContext.jsx";
 
 export default function Profil() {
 

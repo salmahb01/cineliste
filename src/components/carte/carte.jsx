@@ -1,7 +1,7 @@
 import style from "./carte.module.css";
 import BoutonFavori from "../btnfavori/btnfavori";
 import { Link } from "react-router-dom";
-import { useFavoris } from "../../context/favorisContext";
+import { useFavoris } from "../../context/FavorisContext.jsx";
 
 export default function Carte(props) {
 
