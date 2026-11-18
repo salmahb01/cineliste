@@ -1,5 +1,5 @@
-import { useFavoris } from "../../context/FavorisContext.jsx";
-import styles from "./Btnfavori.module.css";
+import { useFavoris } from "../../context/favorisContext.jsx";
+import styles from "./btnfavori.module.css";
 
 export default function BoutonFavori({ film }) {
 
