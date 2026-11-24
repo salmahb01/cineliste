@@ -24,7 +24,7 @@ function App() {
                     <Route
                         path="*"
                         element={<h1>404 - Page introuvable</h1>}
-                    />
+                    /> 
                 </Routes>
             </Layout>
         </BrowserRouter>
